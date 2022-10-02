@@ -3,7 +3,7 @@
 This program will help you save gifs from [walfiegif](https://walfiegif.wordpress.com/) to your computer.
 
 `Example gifs:`
-![A-chan](https://walfiegif.files.wordpress.com/2021/05/out-transparent-14.gif?w=560&h=9999)
+![A-chan](https://walfiegif.files.wordpress.com/2021/05/out-transparent-14.gif)
 
 ## Saved folder
 
