@@ -71,7 +71,7 @@ func ScrapImgLink(html string, wg *sync.WaitGroup, path string) {
 			log.Fatal("attribute src not found")
 		}
 		title, _ := s.Attr("title")
-		// url = strings.Replace(url, "?w=560&h=9999", "?w=512", -1)
+		url = strings.Replace(url, "?w=560&h=9999", "", -1)
 		wg.Add(1)
 		go saveImage(url, title, path, wg)
 	})
